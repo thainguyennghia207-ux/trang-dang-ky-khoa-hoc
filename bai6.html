@@ -1,0 +1,181 @@
+```html
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website bán quần áo nam</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Website bán quần áo nam</h1>
+
+        <nav>
+            <a href="#">Trang chủ</a>
+            <a href="#sanpham">Sản phẩm</a>
+            <a href="#gioithieu">Giới thiệu</a>
+            <a href="#lienhe">Liên hệ</a>
+        </nav>
+
+    </header>
+
+
+    <section id="gioithieu" class="gioi-thieu">
+
+        <h2>Sản phẩm nổi bật</h2>
+
+        <p>
+            Shop thời trang nam chúng tôi chuyên cung cấp các sản phẩm
+            áo polo, áo thun và quần jeans cho nam giới.
+        </p>
+
+    </section>
+
+
+    <!-- Ảnh minh họa -->
+
+    <section class="anh-san-pham">
+
+        <img src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=600&q=80"
+             alt="Thời trang nam">
+
+        <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=600&q=80"
+             alt="Quần áo nam">
+
+    </section>
+
+
+    <!-- Danh sách sản phẩm -->
+
+    <section id="sanpham">
+
+        <h2>Danh sách sản phẩm</h2>
+
+        <table>
+
+            <tr>
+                <th>Mã sản phẩm</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Tình trạng</th>
+            </tr>
+
+            <tr>
+                <td>SP001</td>
+                <td>Áo polo nam</td>
+                <td>200.000 VNĐ</td>
+                <td class="con-hang">Còn hàng</td>
+            </tr>
+
+            <tr>
+                <td>SP002</td>
+                <td>Áo thun nam</td>
+                <td>150.000 VNĐ</td>
+                <td class="con-hang">Còn hàng</td>
+            </tr>
+
+            <tr>
+                <td>SP003</td>
+                <td>Quần jeans nam</td>
+                <td>300.000 VNĐ</td>
+                <td class="het-hang">Hết hàng</td>
+            </tr>
+
+            <tr>
+                <td>SP004</td>
+                <td>Áo polo da cá sấu</td>
+                <td>500.000 VNĐ</td>
+                <td class="con-hang">Còn hàng</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- Form đặt hàng -->
+
+    <section id="lienhe" class="dat-hang">
+
+        <h2>Đặt hàng</h2>
+
+        <form>
+
+            <label>Họ và tên:</label>
+
+            <input type="text" placeholder="Nhập họ và tên">
+
+
+            <label>SĐT:</label>
+
+            <input type="tel" placeholder="Nhập số điện thoại">
+
+
+            <label>Email:</label>
+
+            <input type="email" placeholder="Nhập email">
+
+
+            <label>Sản phẩm:</label>
+
+            <div class="lua-chon">
+
+                <input type="radio" name="quan-ao" value="ao-thun">
+                Áo thun nam
+
+                <input type="radio" name="quan-ao" value="quan-jeans">
+                Quần jeans nam
+
+                <input type="radio" name="quan-ao" value="ao-polo">
+                Áo polo nam
+
+            </div>
+
+
+            <label>Số lượng:</label>
+
+            <input type="number" min="1" value="1">
+
+
+            <label>Phương thức nhận hàng:</label>
+
+            <div class="lua-chon">
+
+                <input type="radio" name="nhan-hang" value="giao-hang">
+                Giao hàng tận nơi
+
+                <input type="radio" name="nhan-hang" value="tai-cua-hang">
+                Nhận tại cửa hàng
+
+            </div>
+
+
+            <button type="submit">
+                Đặt hàng
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Website bán quần áo nam
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+```
